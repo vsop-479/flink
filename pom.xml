@@ -12,5 +12,16 @@
         <module>test</module>
     </modules>
 
+    <properties>
+        <flink.version>1.9.1</flink.version>
+    </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.apache.flink</groupId>
+            <artifactId>flink-core</artifactId>
+            <version>${flink.version}</version>
+        </dependency>
+    </dependencies>
 
 </project>
